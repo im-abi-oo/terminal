@@ -10,6 +10,6 @@ RUN adduser -D dev
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
-EXPOSE 7681
+EXPOSE 10000
 
 CMD ["/start.sh"]
